@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 90%;
+  margin: 0 auto;
+
+}
+h1, h2{
+  text-align: center;
+  background-color: darkcyan;
+  padding: 10px;
+}
+.logo{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  padding: 0;
+  line-height: 70px;
+}
+.link{
+  background-color: rgb(61, 61, 75);
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  list-style: none;
+}
+.link-text{
+  color: white;
+}

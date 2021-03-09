@@ -1,0 +1,7 @@
+.subject{
+    width: 85%;
+    border: 1px solid;
+}
+.subject li{
+    list-style: none;
+}
