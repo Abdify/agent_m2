@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
 
 }
@@ -13,8 +13,10 @@ h1, h2{
   text-align: center;
   background-color: darkcyan;
   padding: 10px;
+  margin-top: 0;
 }
 .logo{
+  color: brown;
   border-radius: 50%;
   height: 70px;
   width: 70px;

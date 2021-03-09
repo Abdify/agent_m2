@@ -9,6 +9,7 @@ const Chapter = () => {
         <div className="topic">
             <h2> {url} </h2>
             <br />
+            <p>This is a very long description of this chapter! <br/>Please don't get bored!</p>
             <li className="link">
                 <Link to={`${subjectLink}`} className="link-text">
                     Go back to {subjectLink}
